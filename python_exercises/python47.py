@@ -1,0 +1,9 @@
+firstName = input("Enter your first name: ")
+lastName = input("Enter your last name or surname: ")
+firstNameLen = len(firstName)
+lastNameLen = len(lastName)
+fullName = firstName + " " + lastName
+fullNameLen  = len(fullName)
+print("Firstname length = " + str(firstNameLen))
+print("Lastname length = " + str(lastNameLen))
+print('Fullname length = ' + str(fullNameLen))
