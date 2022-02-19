@@ -36,3 +36,5 @@ print (~c)
 
 print ((~c)+ 1)
 
+print((~a) + (~b))
+
