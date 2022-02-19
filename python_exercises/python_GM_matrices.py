@@ -1,3 +1,4 @@
+from gettext import find
 import numpy as np
 from numpy.linalg import inv
 from numpy.linalg import matrix_power
@@ -90,4 +91,4 @@ def findAntiDiagonalSum(matrix,size):
 print(SelCol(matrix,2,1,3))
 print(SelRow(matrix,2,0,4))
 print(SelRowCol(matrix,2,1,0,50))
-
+print(findDiagonalSum(matrix,2))
