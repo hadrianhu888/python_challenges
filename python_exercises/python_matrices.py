@@ -31,6 +31,11 @@ print (d-c)
 print (a/b)
 print (c * d)
 print(inv(d))
+print(inv(c))
 print(inv(c) * d)
+print(np.dot(a,b))
+print(np.cross(c,d))
+print(inv(d) + inv(c))
+
 
 
