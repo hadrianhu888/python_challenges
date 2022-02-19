@@ -6,6 +6,19 @@ matrix = np.array([[0,1],[1,2]])
 
 print(matrix)
 
+def checkSquareMatrix(matrix, r, c):
+    for i in range(r):
+        row = row + 1
+    for j in range(c):
+        col = col + 1
+    print(row)
+    print(col)
+    if row == col:
+        print ("This is a square matrix\n\n")
+    else:
+        print ("This is not a square matrix\n\n")
+    print (matrix)
+
 def checkUserRowColInput(size,x):
     if x == size:
         return size - 1
@@ -75,3 +88,4 @@ def findAntiDiagonalSum(matrix,size):
 print(SelCol(matrix,2,1,3))
 print(SelRow(matrix,2,0,4))
 print(SelRowCol(matrix,2,1,0,50))
+
