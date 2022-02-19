@@ -80,7 +80,9 @@ def findAntiDiagonalSum(matrix,size):
     anti_diag_sum = 0
     for i in range(size):
         for j in range(i):
-            anti_diag_sum = anti_diag_sum + matrix[i][j]
+            anti_diag_sum = anti_diag_sum + matrix[i][j]           
+            j = j + 1
+    i = i - 1
     print(matrix)
     print(anti_diag_sum)
     return anti_diag_sum
