@@ -5,7 +5,8 @@ characters = list(str.ascii_letters + str.digits + "!@#$%^&*()")
 
 pw_length = int(input("Enter the length of the password: "))
 
-rd.shuffle(characters)
+for i in range(pw_length): 
+    rd.shuffle(characters)
 
 user_password = []
 
